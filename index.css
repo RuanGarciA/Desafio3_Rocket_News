@@ -1,0 +1,179 @@
+* { /*resetando as margens da pagina */
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    display: flex;
+}
+
+.container-bg {
+   
+    display: flex;
+   
+    width: 1440px;
+    height: 784px;
+ 
+    margin: 2vh auto;
+
+}
+
+
+main{
+    background-color:black;
+
+    max-width: 720px;
+    max-height: 780px;
+    /* min-width: 400px; */
+    padding: 50px 30px;
+
+}
+
+
+
+.img-bg{
+    height: 100%;
+    max-width: 720px;
+    
+}
+
+
+
+.logoRocket {
+   
+   
+    width: 389px;
+    height: 94px;
+
+
+}
+
+
+
+
+
+
+
+ .texto {
+    min-width: -webkit-fill-available;
+    margin-top: 100px;
+ 
+    width: 80%;
+    height: 132px;
+    color: #FFFFFF;
+   
+ }
+
+
+
+ h1{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+   
+    color: #08C05E;
+
+ }
+ h2 {
+    width: 519px; 
+    
+    font-family: 'Spartan';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+   
+    padding-top: 10px;
+    padding-bottom: 14px;
+ }
+ p {
+    
+    font-family: 'Spartan';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 17px;
+
+ }
+
+.div-flex{
+    display: flex;
+    position: absolute;
+    box-shadow: 2px 5px 0 rgb(0 0 0 / 43%);
+
+}
+
+ .form1 {
+    display: contents;
+    
+ }
+
+ .logo-enviar { 
+    height: 100%;
+    
+    border: 0.5px solid;
+   
+    background: #8257E5;
+}
+
+.logo-enviar:hover{   /*gerando efeito quando o mause passa*/
+    text-decoration:underline;
+    color: rgb(230, 221, 230);
+    background-color: purple;
+  }
+
+.area-email {
+    
+    border-left-color: rgb(78, 243, 12);
+    border-left-style: solid;
+    border-left-width: 12px;
+   
+  
+    height: 48px;
+    width: 798px;
+    box-shadow: 8px 5px 5px rgb(0 0 0 / 50%)
+
+   
+}
+label {
+
+    font-family: 'Spartan';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 138.73%;
+    color: #A8A8A8;
+   
+}
+
+button {
+    height: 50px;
+    border: 0;
+}
+
+
+
+  .informacoes {
+    position: absolute;
+ 
+    top: 522px;
+    font-size: 18px;
+}
+
+.informacoes a{
+       text-decoration: none;
+       color: #8257E5;
+    
+}
+
+  .inf {
+    border-radius: 40%;
+    
+  }
+  .informacoes:hover{   /*gerando efeito quando o mause passa*/
+    text-decoration: underline;
+    
+    border-radius: 15%;
+    text-shadow: #FFFFFF;
+
+  }
